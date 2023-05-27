@@ -2,43 +2,43 @@
 ### DATE  :
 # <p align="center">Animal-feeding-Phase-I</p>
 
-## Aim: 
+## Aim : 
 To develop a animal feeding game-Phase-1 using unity.
-## Algorithm:
+## Algorithm :
 ### Player Controller
-### Step 1: 
+### Step 1 : 
 Extract the package and in unity , asserts -> Import packages -> Custom packages and select the package. 
-### Step 2: 
+### Step 2 : 
 If you want, drag a different material from Course Library > Materials onto the Ground object
-### Step 3: 
+### Step 3 : 
 Drag 1 Human, 3 Animals, and 1 Food object into the Hierarchy
-### Step 4: 
+### Step 4 : 
 Rename the character “Player”, then reposition the animals and food so you can see them
-### Step 5: 
+### Step 5 : 
 Adjust the XYZ scale of the food (2,2,2) so you can easily see it from above
-### Step 6: 
+### Step 6 : 
 In your Assets folder, create a “Scripts” folder, and a “PlayerController” script inside.Attach the script to the Player by dragging the c# file to the player.
 
 ### Flood Flight
-### Step 1: 
+### Step 1 : 
 Create a new “MoveForward” script, attach script to the Food Pizza by dragging the c# file to the pizza and open in the inspector and check whether it is attached
-### Step 2: 
+### Step 2 : 
 Create a new “Prefabs” folder, drag your food (Pizza) into Prefab folder, and a pop up raises-> choose Original Prefab
-### Step 3: 
+### Step 3 : 
 Select the Player in the hierarchy, then drag the pizza from your Prefabs folder onto the new Projectile Prefab box in the inspector
-### Step 4: 
+### Step 4 : 
 Rotate all animals on the Y axis by 180 degrees to face down
-### Step 5: 
+### Step 5 : 
 Select all three animals in the hierarchy and Add Component > Drag the Move Forward script from the Scripts into inspector
-### Step 6: 
+### Step 6 : 
 Edit their speed values and test to see how it looks. Drag all three animals into the Prefabs folder, choosing “Original Prefab”
 
 
-## Program:
+## Program :
 Developed By: **Virgil Jovita A**
 </br>
 Register No.: **212221240062**
-### Player Controller:
+### Player Controller :
 ```c#
 using System.Collections;
 using System.Collections.Generic;
@@ -71,7 +71,7 @@ public class PlayerController : MonoBehaviour
     }
 }
 ```
-### Move forward:
+### Move forward :
 ```c#
 using System.Collections;
 using System.Collections.Generic;
@@ -89,9 +89,9 @@ public class Moveforward : MonoBehaviour
 }
 ```
 
-## Output:
+## Output :
 ![image](https://github.com/ArchanaSharikalHarinarayanan/Recursive-function/assets/94174503/bd08955c-e877-4333-ab2c-db5277af3433)
-https://github.com/ArchanaSharikalHarinarayanan/Recursive-function/assets/94174503/cc595a36-ac9c-4d53-a70f-2a3184b24dc4
+https://github.com/Jovita08/Animal-feeding-Phase-I/assets/94174503/5ebd7141-fbdb-4d4a-85da-03df05555727
 
-## Result:
+## Result :
 Animal feeding game-Phase-1 using unity is developed successfully.
